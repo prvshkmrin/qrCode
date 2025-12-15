@@ -61,6 +61,3 @@ Future improvements may include customization options such as size, color, and e
 
 ---
 
-## License
-
-This project is open-source and available under the MIT License.
