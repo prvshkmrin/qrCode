@@ -59,5 +59,4 @@ Future improvements may include customization options such as size, color, and e
 - GitHub: https://github.com/prvshkmrin
 - Website: https://prvshkmr.in
 
----
 
