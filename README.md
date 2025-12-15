@@ -1,16 +1,66 @@
-# React + Vite
+# QR Code Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, clean web-based QR code generator that converts any URL or text input into a downloadable QR code image.
 
-Currently, two official plugins are available:
+Live demo: https://qr.prvshkmr.in
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Generate QR codes instantly from URLs or text
+- Clean and minimal user interface
+- Download generated QR code as a PNG image
+- Works directly in the browser (no backend required)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- HTML
+- CSS
+- JavaScript
+- QR Code generation library (client-side)
+
+---
+
+## How It Works
+
+1. Enter a URL or text in the input field
+2. The QR code is generated instantly
+3. Click **Download PNG** to save the QR code locally
+
+---
+
+## Use Cases
+
+- Share website links quickly
+- Generate QR codes for resumes, portfolios, or projects
+- Lightweight alternative to heavy QR generator tools
+
+---
+
+## Screenshots
+
+![QR Code Generator UI](./screenshot.png)
+
+---
+
+## Project Status
+
+Completed — basic functionality implemented.  
+Future improvements may include customization options such as size, color, and error correction levels.
+
+---
+
+## Author
+
+**Parvesh Kumar**  
+- GitHub: https://github.com/prvshkmrin
+- Website: https://prvshkmr.in
+
+---
+
+## License
+
+This project is open-source and available under the MIT License.
