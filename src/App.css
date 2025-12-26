@@ -4,7 +4,8 @@ body,
 #root {
   height: 100%;
   margin: 0;
-  background: #f7f8fc;
+  /* CHANGED: Use Saffron here so it doesn't stay gray */
+  background: #FF9933; 
   font-family: Inter, system-ui, sans-serif;
   display: flex;
   align-items: center;
